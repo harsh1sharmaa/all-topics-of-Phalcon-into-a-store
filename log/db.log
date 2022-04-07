@@ -1,0 +1,183 @@
+[2022-04-04T13:03:03+00:00][info] order saved
+[2022-04-04T13:03:59+00:00][info] product saved
+[2022-04-04T13:18:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:18:00+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-04T13:18:00+00:00][error] INSERT INTO `products` (`name`, `price`) VALUES (?, ?)
+[2022-04-04T13:18:00+00:00][info] product saved
+[2022-04-04T13:20:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:20:25+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-04T13:20:25+00:00][error] INSERT INTO `products` (`name`, `price`) VALUES (?, ?)
+[2022-04-04T13:20:25+00:00][info] product saved
+[2022-04-04T13:20:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:20:27+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-04T13:20:27+00:00][error] INSERT INTO `products` (`name`, `price`) VALUES (?, ?)
+[2022-04-04T13:20:27+00:00][info] product saved
+[2022-04-04T13:20:33+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:20:33+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-04T13:20:33+00:00][error] INSERT INTO `products` (`name`, `price`) VALUES (?, ?)
+[2022-04-04T13:20:33+00:00][info] product saved
+[2022-04-04T13:21:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:21:15+00:00][error] SHOW FULL COLUMNS FROM `orders`
+[2022-04-04T13:21:15+00:00][error] SELECT `orders`.`order_id`, `orders`.`name`, `orders`.`price`, `orders`.`address` FROM `orders`
+[2022-04-04T13:21:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:21:52+00:00][error] SHOW FULL COLUMNS FROM `orders`
+[2022-04-04T13:21:52+00:00][error] INSERT INTO `orders` (`name`, `price`, `address`) VALUES (?, ?, ?)
+[2022-04-04T13:21:52+00:00][info] order saved
+[2022-04-04T13:22:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:22:21+00:00][error] SHOW FULL COLUMNS FROM `orders`
+[2022-04-04T13:22:21+00:00][error] SELECT `orders`.`order_id`, `orders`.`name`, `orders`.`price`, `orders`.`address` FROM `orders`
+[2022-04-04T13:22:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:22:25+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-04T13:22:25+00:00][error] SELECT `products`.`product_id`, `products`.`name`, `products`.`price` FROM `products`
+[2022-04-04T13:43:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:43:58+00:00][error] SHOW FULL COLUMNS FROM `orders`
+[2022-04-04T13:43:58+00:00][error] SELECT `orders`.`order_id`, `orders`.`name`, `orders`.`price`, `orders`.`address` FROM `orders`
+[2022-04-04T13:44:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T13:44:01+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-04T13:44:01+00:00][error] SELECT `products`.`product_id`, `products`.`name`, `products`.`price` FROM `products`
+[2022-04-04T14:03:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T14:03:11+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-04T14:03:11+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-04T14:03:29+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T14:03:29+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-04T14:03:29+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-04T14:04:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T14:04:17+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-04T14:04:17+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T03:48:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T03:48:26+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T03:48:26+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T03:49:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T03:49:01+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T03:49:01+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T03:53:22+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T03:53:22+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T03:53:22+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T03:53:39+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T03:53:39+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T03:53:39+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T03:54:10+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T03:54:10+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T03:54:10+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T03:54:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T03:54:16+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T03:54:16+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T03:54:49+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T03:54:49+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T03:54:49+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T04:06:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:06:44+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-05T04:06:44+00:00][error] SELECT `products`.`product_id`, `products`.`name`, `products`.`price` FROM `products`
+[2022-04-05T04:06:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:06:46+00:00][error] SHOW FULL COLUMNS FROM `orders`
+[2022-04-05T04:06:46+00:00][error] SELECT `orders`.`order_id`, `orders`.`name`, `orders`.`price`, `orders`.`address` FROM `orders`
+[2022-04-05T04:09:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:09:42+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T04:09:42+00:00][error] INSERT INTO `users` (`name`, `role`, `email`, `token`) VALUES (?, ?, ?, ?)
+[2022-04-05T04:10:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:10:15+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T04:10:15+00:00][error] INSERT INTO `users` (`name`, `role`, `email`, `token`) VALUES (?, ?, ?, ?)
+[2022-04-05T04:10:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:10:57+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T04:10:57+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T04:12:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:12:46+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T04:12:46+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T04:13:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:13:15+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T04:13:15+00:00][error] INSERT INTO `users` (`name`, `role`, `email`, `token`) VALUES (?, ?, ?, ?)
+[2022-04-05T04:14:02+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:14:02+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T04:14:02+00:00][error] INSERT INTO `users` (`name`, `role`, `email`, `token`) VALUES (?, ?, ?, ?)
+[2022-04-05T04:14:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:14:23+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-05T04:14:23+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-05T04:14:32+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T04:14:32+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-05T04:14:32+00:00][error] SELECT `products`.`product_id`, `products`.`name`, `products`.`price` FROM `products`
+[2022-04-05T05:24:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-05T05:24:18+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-05T05:24:18+00:00][error] SELECT `products`.`product_id`, `products`.`name`, `products`.`price` FROM `products`
+[2022-04-07T09:15:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:15:59+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-07T09:15:59+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-07T09:17:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:17:25+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-07T09:17:25+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-07T09:19:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:19:01+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-07T09:19:01+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-07T09:19:04+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:19:04+00:00][error] SHOW FULL COLUMNS FROM `orders`
+[2022-04-07T09:19:05+00:00][error] SELECT `orders`.`order_id`, `orders`.`name`, `orders`.`price`, `orders`.`address` FROM `orders`
+[2022-04-07T09:19:06+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:19:06+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-07T09:19:06+00:00][error] SELECT `products`.`product_id`, `products`.`name`, `products`.`price` FROM `products`
+[2022-04-07T09:20:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:20:19+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-07T09:20:19+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-07T09:20:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:20:23+00:00][error] SHOW FULL COLUMNS FROM `products`
+[2022-04-07T09:20:23+00:00][error] SELECT `products`.`product_id`, `products`.`name`, `products`.`price` FROM `products`
+[2022-04-07T09:37:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:37:11+00:00][error] SHOW FULL COLUMNS FROM `users`
+[2022-04-07T09:37:11+00:00][error] SELECT `users`.`user_id`, `users`.`name`, `users`.`role`, `users`.`email`, `users`.`token` FROM `users` WHERE `users`.`email` = :email
+[2022-04-07T09:41:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:41:21+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:41:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:41:41+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:41:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:41:44+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:41:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:41:47+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:42:48+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:42:48+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:42:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:42:52+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:44:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:44:27+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:44:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:44:46+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:44:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:44:54+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:45:50+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:45:50+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:45:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:45:56+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:48:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:48:18+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:49:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:49:59+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:49:59+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1
+[2022-04-07T09:50:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:50:23+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:50:23+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1
+[2022-04-07T09:50:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:50:43+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:50:43+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1
+[2022-04-07T09:51:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:51:00+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:51:00+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1
+[2022-04-07T09:51:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:51:25+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:51:25+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1
+[2022-04-07T09:51:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:51:40+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:51:40+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1
+[2022-04-07T09:51:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:51:46+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:51:46+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1
+[2022-04-07T09:52:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:52:46+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:52:46+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1 LIMIT :APL0
+[2022-04-07T09:52:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:52:58+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:52:58+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1 LIMIT :APL0
+[2022-04-07T09:53:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:53:30+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:53:30+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1 LIMIT :APL0
+[2022-04-07T09:53:30+00:00][error] UPDATE `settings` SET `Default_Price` = ? WHERE `id` = ?
+[2022-04-07T09:54:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-07T09:54:21+00:00][error] SHOW FULL COLUMNS FROM `settings`
+[2022-04-07T09:54:21+00:00][error] SELECT `settings`.`id`, `settings`.`Default_Price` FROM `settings` WHERE `settings`.`id` = 1 LIMIT :APL0
+[2022-04-07T09:54:21+00:00][error] UPDATE `settings` SET `Default_Price` = ? WHERE `id` = ?
